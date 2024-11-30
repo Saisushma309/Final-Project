@@ -22,7 +22,7 @@ function HomePage() {
     
 
     try {
-        const response = await axios.post('http://localhost:3000/api/login', {
+        const response = await axios.post('http://67.205.140.185:3000/api/login', {
             username: username,
             password: password,
           });

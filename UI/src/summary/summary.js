@@ -19,7 +19,7 @@ function Dashboard() {
 
         // Fetch data from the backend using Axios
         axios
-            .get('http://localhost:3000/api/electronicvehiclesales', {
+            .get('http://67.205.140.185:3000/api/electronicvehiclesales', {
                 headers: {
                     Authorization: `Bearer ${localStorage.getItem('token')}`,
                 },

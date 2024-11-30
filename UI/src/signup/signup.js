@@ -49,7 +49,7 @@ function Signup() {
 
     if (validateForm()) {
       try {
-        const response = await axios.post('http://localhost:3000/api/signup', {
+        const response = await axios.post('http://67.205.140.185:3000/api/signup', {
           first_name: firstName,
           last_name: lastName,
           username: username,

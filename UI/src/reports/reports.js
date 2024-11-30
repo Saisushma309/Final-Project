@@ -18,7 +18,7 @@ function Reports() {
       navigate('/'); // Redirect to login page
     } else {
       // Fetch EV usage data
-      axios.get('http://localhost:3000/api/evusage', {
+      axios.get('http://67.205.140.185:3000/api/evusage', {
         headers: {
             Authorization: `Bearer ${localStorage.getItem('token')}`,
         },
